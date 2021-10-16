@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+    overflow: scroll;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+
+}   
+
+.navbar{
+    height: 250px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.308);
+}
+
+.logo {
+    padding: 20px, 100px;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+    line-height: 150px;
+}
+
+.navbar ul li a{
+    color: silver;
+    font-family: 'Open Sans',monospace;
+    font-size: x-large;
+    font-weight: 700;
+    padding: 10px;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #FF6600;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FF6600, 0 0 40px #FF6600, 0 0 80px #FF6600;
+}
+
+
+
+
+
+#title {
+    position: absolute;
+    top: 30.6%;
+    left: 0%;
+    right: 0%;
+    color:silver;
+    text-align: center;
+    font-family: 'Open Sans',monospace ;
+    font-weight: 700;
+    font-size: x-large;
+    letter-spacing: 10px;
+    margin-top: -1%;
+    padding-left: 10px;
+
+}
+
+.vid {
+    width: 100%;
+    position: relative;
+    
+}
+
